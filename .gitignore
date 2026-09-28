@@ -1,0 +1,8 @@
+.DS_Store
+*.ipa
+*.p12
+*.mobileprovision
+*.sqlite*
+*.db
+.env
+.env.*
