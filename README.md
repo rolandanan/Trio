@@ -1,20 +1,45 @@
-# Trio
+<p align="center">
+  <img src="assets/trio-icon.png" alt="Trio App 图标" width="100">
+</p>
 
-Money · Subscriptions · Things
+<h1 align="center">Trio</h1>
 
-三种价值，一个地方管理。Trio 是一款本地优先的 iOS App，集中管理日常账目、订阅与物品。
+<p align="center">
+  <strong>Money · Subscriptions · Things</strong><br>
+  三种价值，一个地方管理。<br>
+  一款本地优先的 iOS 账单、订阅与物品管理 App。
+</p>
 
-## 功能
+<p align="center">
+  <img src="https://img.shields.io/badge/iOS-18%2B-5067A7" alt="支持 iOS 18 及以上版本">
+  <a href="https://github.com/rolandanan/Trio/releases/latest"><img src="https://img.shields.io/github/v/release/rolandanan/Trio?label=Latest%20Version" alt="最新版本"></a>
+  <a href="https://github.com/rolandanan/Trio/releases/latest"><img src="https://img.shields.io/badge/IPA-Download-36A772" alt="下载 IPA"></a>
+</p>
 
-- 账单记录、预算与报表
-- 订阅管理
-- 物品与库存管理，包括出入库记录、最低库存提醒
-- 自定义物品类型与放置位置
-- Money 与 Things 的账单关联
+<p align="center">
+  <a href="https://github.com/rolandanan/Trio/releases/latest">下载最新版本</a> ·
+  <a href="#一个-app管理三种价值">功能介绍</a> ·
+  <a href="docs/INSTALLATION.md">安装说明</a> ·
+  <a href="CHANGELOG.md">更新日志</a>
+</p>
 
-## Screenshots
+## 一个 App，管理三种价值
 
-以下画面来自同一台 iPhone 17e 模拟器，使用虚构示例数据。
+### 💰 Money
+
+记录收入与支出，按周、月、年查看账单，管理分类与预算。
+
+### 💳 Subscriptions
+
+集中查看周期费用、续费日期和月度订阅支出。
+
+### 📦 Things
+
+记录物品的购买价格、当前价值、库存和位置，并与账单关联。
+
+### 产品截图
+
+以下画面来自同一台 iPhone 17e 模拟器，均使用虚构演示数据。
 
 <p align="center">
   <img src="screenshots/01-home.png" alt="Trio 首页：账单、预算、物品与订阅概览" width="260">
@@ -27,22 +52,51 @@ Money · Subscriptions · Things
   <img src="screenshots/05-dark-mode.png" alt="Trio 深色模式下的物品页面" width="260">
 </p>
 
-## Download
+## 为什么是 Trio
 
-前往 [Latest Release](https://github.com/rolandanan/Trio/releases/latest) 下载最新的 `Trio-vX.Y.Z.ipa`。每个 Release 附中文更新日志。
+记账告诉你钱花到哪里。Trio 还帮助你看清：
 
-## Installation
+- **Money**：钱是怎么流动的。
+- **Subscriptions**：哪些支出会持续发生。
+- **Things**：花出去的钱最终变成了什么。
 
-当前公开 IPA **未签名**。下载后不能直接点击安装；用户需要自行使用合法可用的签名与安装方式，并满足 Apple 的账号和设备要求。官方不收集 Apple 账号、证书或私钥。
+**Money · Subscriptions · Things**，三种价值，一个地方管理。
 
-### 安全提示
+## 功能
 
-Trio 官方不会要求你提供 Apple ID 密码、双重验证码、证书私钥或签名文件。如使用第三方签名服务，请自行评估其隐私与安全风险。
+| 模块 | 功能 |
+| --- | --- |
+| 💰 账单 | 收入、支出、分类、周／月／年周期与报表 |
+| 🎯 预算 | 月预算、本月已用与剩余额度 |
+| 💳 订阅 | 周期费用、续费日期与月度订阅支出 |
+| 📦 物品 | 购买价格、当前价值、分类与状态 |
+| 📍 位置 | 自定义放置位置 |
+| 📊 库存 | 数量、单位、最低库存与出入库流水 |
+| 🔗 关联 | Money 账单与 Things 物品关联 |
+| 🌙 外观 | 浅色与深色模式 |
+
+## 下载
+
+当前版本：**Trio v1.0.0**
+
+### [⬇️ 下载最新 Trio IPA](https://github.com/rolandanan/Trio/releases/latest)
+
+当前公开 IPA 未签名，需要使用合法可用的签名方式安装。详见[安装说明](docs/INSTALLATION.md)。
+
+## 安装
+
+下载后请先阅读[安装说明](docs/INSTALLATION.md)，确认签名方式及设备要求；未签名 IPA 不能直接点击安装。
+
+## 隐私
+
+Trio 是本地优先的 App。账单、订阅、物品和库存等用户数据保存在用户设备上。公开 GitHub 仓库不要求上传个人数据库，也不会要求提供 Apple ID 密码、证书私钥或签名文件。
+
+提交 Issue 时，请勿上传真实账单、数据库备份、Apple ID、证书、设备 UDID 或其他个人信息。详见[隐私说明](PRIVACY.md)与[安全提示](SECURITY.md)。
 
 ## Official Releases
 
-只有本仓库的 [GitHub Releases](https://github.com/rolandanan/Trio/releases) 属于 Trio 官方发布版本。第三方 Fork、重新打包或修改的内容不属于官方版本。
+只有本仓库的 [GitHub Releases](https://github.com/rolandanan/Trio/releases) 发布的文件属于 Trio 官方版本。第三方 Fork、重新打包、重新签名或修改版均不属于官方 Trio Release。
 
-## 隐私与源码
+## 版权
 
-Trio 源码保存在私有仓库，本仓库仅用于介绍、更新日志与官方安装包下载，不提供 Swift/Xcode 源码。App 的账目和物品数据保存在用户设备上。请勿在公开 Issue 中提交真实账单、备份、账号或设备信息。
+© 2026 Trio。详见 [LICENSE](LICENSE)。
