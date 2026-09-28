@@ -35,6 +35,10 @@ Money · Subscriptions · Things
 
 当前公开 IPA **未签名**。下载后不能直接点击安装；用户需要自行使用合法可用的签名与安装方式，并满足 Apple 的账号和设备要求。官方不收集 Apple 账号、证书或私钥。
 
+### 安全提示
+
+Trio 官方不会要求你提供 Apple ID 密码、双重验证码、证书私钥或签名文件。如使用第三方签名服务，请自行评估其隐私与安全风险。
+
 ## Official Releases
 
 只有本仓库的 [GitHub Releases](https://github.com/rolandanan/Trio/releases) 属于 Trio 官方发布版本。第三方 Fork、重新打包或修改的内容不属于官方版本。

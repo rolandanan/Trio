@@ -6,3 +6,30 @@
 *.db
 .env
 .env.*
+
+# Prevent accidental source upload
+*.swift
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+build/
+xcuserdata/
+
+# Build artifacts
+*.xcarchive/
+*.xcresult/
+*.dSYM/
+*.app/
+
+# Signing / credentials
+*.cer
+*.p8
+*.pfx
+*.pem
+*.key
+*.provisionprofile
+
+# Runtime / local
+*.log
+tmp/
+temp/
