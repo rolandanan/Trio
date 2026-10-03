@@ -39,7 +39,7 @@
 
 ### 产品截图
 
-以下画面来自同一台 iPhone 17e 模拟器，均使用虚构演示数据。
+以下画面来自 iPhone 17e 和 iPhone Air 模拟器；业务页面均使用虚构演示数据。
 
 <p align="center">
   <img src="screenshots/01-home.png" alt="Trio 首页：账单、预算、物品与订阅概览" width="260">
@@ -50,6 +50,7 @@
 <p align="center">
   <img src="screenshots/04-things.png" alt="Trio 物品：资产、库存与筛选" width="260">
   <img src="screenshots/05-dark-mode.png" alt="Trio 深色模式下的物品页面" width="260">
+  <img src="screenshots/06-about.png" alt="Trio 关于页面：动态版本号与 GitHub 链接" width="260">
 </p>
 
 ## 为什么是 Trio
@@ -74,10 +75,11 @@
 | 📊 库存 | 数量、单位、最低库存与出入库流水 |
 | 🔗 关联 | Money 账单与 Things 物品关联 |
 | 🌙 外观 | 浅色与深色模式 |
+| ℹ️ 关于 | 动态版本号、App 介绍与 GitHub 链接 |
 
 ## 下载
 
-当前版本：**Trio v1.0.0**
+当前版本：**Trio v1.1.0（Build 2）**
 
 ### [⬇️ 下载最新 Trio IPA](https://github.com/rolandanan/Trio/releases/latest)
 
