@@ -74,12 +74,13 @@
 | 📍 位置 | 自定义放置位置 |
 | 📊 库存 | 数量、单位、最低库存与出入库流水 |
 | 🔗 关联 | Money 账单与 Things 物品关联 |
+| 🏠 首页动态 | 点击近期动态，跳转到账单、订阅或物品页面 |
 | 🌙 外观 | 浅色与深色模式 |
 | ℹ️ 关于 | 动态版本号、App 介绍与 GitHub 链接 |
 
 ## 下载
 
-当前版本：**Trio v1.1.0（Build 2）**
+当前版本：**Trio v1.2.0（Build 3）**
 
 ### [⬇️ 下载最新 Trio IPA](https://github.com/rolandanan/Trio/releases/latest)
 
